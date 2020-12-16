@@ -1,0 +1,4 @@
+.description__row:before {
+    content: attr(data-subtitle) ': ';
+    color: #8C8C8C;
+}

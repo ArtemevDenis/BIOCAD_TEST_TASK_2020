@@ -1,0 +1,154 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title>BIOCAD TASK</title>
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <link type="text/css" rel="stylesheet" href="css/description_style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body class="container">
+<div id="root"></div>
+
+<header class="header">
+    <div class="inner">
+        <form class="search-form">
+            <label class="search-form__label" for="search-input">Enter inventory number, guid or bims id</label>
+            <div class="flex">
+                <input class="search-form__input" id="search-input" placeholder="A-001234"/>
+                <button class="search-form__btn-search">Search</button>
+            </div>
+        </form>
+    </div>
+</header>
+<main class="settings">
+    <div class="settings__widget">
+        <div class="settings__header">
+            <img class="settings__icon" src="img/scale.svg" alt=""/>
+            <h1 class="settings__title">Аналитические весы OHAUS Adventurer АХ324 (B715976163)</h1>
+        </div>
+        <div class="settings__content widget">
+            <select class="widget__select">
+                <option selected>1 month</option>
+                <option>other option 1</option>
+                <option>other option 1</option>
+                <option>other option 1</option>
+                <option>other option 1</option>
+                <option>other option 1</option>
+            </select>
+            <div class="widget__radio-group">
+                <label class="widget__radio"><input class="widget__radio-real" name="type-action" type="radio"
+                                                    value="calibration"
+                                                    checked><span class="widget__radio-fake"></span>Calibration</label>
+                <label class="widget__radio"><input class="widget__radio-real" name="type-action" type="radio"
+                                                    value="measuring"><span class="widget__radio-fake"></span> Measuring</label>
+                <label class="widget__radio"><input class="widget__radio-real" name="type-action" type="radio"
+                                                    value="using"><span class="widget__radio-fake"></span>Using</label>
+
+            </div>
+        </div>
+        <button class="settings__btn-report">Generate report</button>
+    </div>
+    <div class="description">
+        <p class="description__row" data-subtitle="Тип оборудования">Весы</p>
+        <p class="description__row" data-subtitle="Статус">Готов к работе</p>
+        <p class="description__row" data-subtitle="Изготовитель">Ohaus</p>
+        <p class="description__row" data-subtitle="Модель">AX-123</p>
+        <p class="description__row" data-subtitle="Ответственное подразделение (ремонт)">Группа обслуживания
+            лабораторного оборудования</p>
+        <p class="description__row" data-subtitle="Эксплуатирующее подразделение">Химико-аналитическая лаборатория
+            2.0</p>
+        <p class="description__row" data-subtitle="МОЛ">Иванов Иван Иванович</p>
+        <p class="description__row" data-subtitle="Территория">г. Санкт-Петербург (Нойдорф)</p>
+        <p class="description__row" data-subtitle="Серийный номер">B715976163</p>
+        <p class="description__row" data-subtitle="GUID:"><a href="#">508b2a71-662e-4983-ae0c-3cb0c1cd21c5</a></p>
+        <p class="description__row" data-subtitle="Bims ID"><a href="#">49db8db1-585f-4b9e-bbf0-8a59698edc8b</a></p>
+        <p class="description__row" data-subtitle="Tam"><a href="#">А-001234</a></p>
+    </div>
+</main>
+<div class="results">
+    <div class="results__content">
+        <h2 class="results__title">Calibration report</h2>
+        <div class="results__table-wrapper">
+            <table class="table">
+                <thead class="table__header">
+                <tr>
+                    <td>Data</td>
+                    <td>Used buffer solutions</td>
+                    <td>Slope, %<br/>Norm 95-105</td>
+                    <td>Offset, mV<br/>Norm ±(0-20)</td>
+                    <td>User</td>
+                </tr>
+                </thead>
+                <tbody class="table__body">
+                <tr class="table__body-tr">
+                    <td class="table__body-td table__body-td--date">04.10.19<br/>10:23</td>
+                    <td class="table__body-td table__body-td--buffer-solutions">
+                        <p class="table__body-p">В1: № 2000460789536: pH 1.09</p>
+                        <p class="table__body-p">В2: № 2000460789536: pH 2.00</p>
+                        <p class="table__body-p">В3: № 2000460789536: pH 4.01</p>
+                        <p class="table__body-p">В4: № 2000460789536: pH 7.00</p>
+                        <p class="table__body-p">В5: № 2000460789536: pH 9.21</p>
+                    </td>
+                    <td class="table__body-td  table__body-td--slope"><span class="with-result with-result--positive">98.7</span>
+                    </td>
+                    <td class="table__body-td  table__body-td--offset"><span class="with-result with-result--positive">-0.3</span>
+                    </td>
+                    <td class="table__body-td  table__body-td--user">Иванов Генадий Петрович</td>
+                </tr>
+                <tr class="table__body-tr">
+                    <td class="table__body-td table__body-td--date">04.10.19<br/>10:23
+                    </td>
+                    <td class="table__body-td table__body-td--buffer-solutions">
+                        <p class="table__body-p">В1: № 2000460789536: pH 1.09</p>
+                        <p class="table__body-p">В2: № 2000460789536: pH 2.00</p>
+                        <p class="table__body-p">В3: № 2000460789536: pH 4.01</p>
+                        <p class="table__body-p">В4: № 2000460789536: pH 7.00</p>
+                        <p class="table__body-p">В5: № 2000460789536: pH 9.21</p>
+                    </td>
+                    <td class="table__body-td  table__body-td--slope"><span class="with-result with-result--positive">98.7</span>
+                    </td>
+                    <td class="table__body-td  table__body-td--offset"><span class="with-result with-result--positive">-0.3</span>
+                    </td>
+                    <td class="table__body-td  table__body-td--user">Петров Иван Генадьевич</td>
+                </tr>
+                <tr class="table__body-tr">
+                    <td class="table__body-td table__body-td--date">04.10.19<br/>10:23
+                    </td>
+                    <td class="table__body-td table__body-td--buffer-solutions">
+                        <p class="table__body-p">В1: № 2000460789536: pH 1.09</p>
+                        <p class="table__body-p">В2: № 2000460789536: pH 2.00</p>
+                        <p class="table__body-p">В3: № 2000460789536: pH 4.01</p>
+                        <p class="table__body-p">В4: № 2000460789536: pH 7.00</p>
+                        <p class="table__body-p">В5: № 2000460789536: pH 9.21</p>
+                    </td>
+                    <td class="table__body-td  table__body-td--slope"><span class="with-result with-result--positive">98.7</span>
+                    </td>
+                    <td class="table__body-td  table__body-td--offset"><span class="with-result with-result--positive">-0.3</span>
+                    </td>
+                    <td class="table__body-td  table__body-td--user">Петров Генадий Иванович</td>
+                </tr>
+                <tr class="table__body-tr">
+                    <td class="table__body-td table__body-td--date">04.10.19<br/>10:23
+                    </td>
+                    <td class="table__body-td table__body-td--buffer-solutions">
+                        <p class="table__body-p">В1: № 2000460789536: pH 1.09</p>
+                        <p class="table__body-p">В2: № 2000460789536: pH 2.00</p>
+                        <p class="table__body-p">В3: № 2000460789536: pH 4.01</p>
+                        <p class="table__body-p">В4: № 2000460789536: pH 7.00</p>
+                        <p class="table__body-p">В5: № 2000460789536: pH 9.21</p>
+                    </td>
+                    <td class="table__body-td  table__body-td--slope"><span class="with-result with-result--negative">90.1</span>
+                    </td>
+                    <td class="table__body-td  table__body-td--offset"><span class="with-result with-result--positive">-0.5</span>
+                    </td>
+                    <td class="table__body-td  table__body-td--user">Генадьев Иван Петрович</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+</body>
+</html>
